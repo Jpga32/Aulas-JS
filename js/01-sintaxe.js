@@ -22,7 +22,7 @@ Espaços identificados na memória para armazenar dados temporariamente */
 let ano = 2022;
 
 // Constante: valor imutável (não muda)
-const aluno = "Tiago";
+const aluno = "João";
 // const aluno = prompt();
 
 

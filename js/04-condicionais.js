@@ -22,19 +22,27 @@ if (numero > 0) {
 //Exemplo 2 : condicional Composta (If/else)
 let aluno = "João";
 let nota1 = 8;
-let nota2 = 7;
+let nota2 = 4;
 let media = (nota1+nota2)/2;
 
 console.log(`aluno:${aluno}`);
 console.log(`Notas:${nota1} e ${nota2}`);
 console.log(`Média:${media.toFixed(2)}`);
 
-let situacao;
-if (media >= 7 ) {situacao = "Aprovado";} 
+let faltas = 10;
+console.log(`Faltas: ${faltas}`);
 
-else{
+
+//if (media >= 7 ){
+
+/* && -> operador logico e */
+
+ if ( media >=7 && faltas < 15 ){   
+    situacao = "Aprovado";
+ } else{
     situacao = "Reprovado";
 }
+console.log(situacao);
 
 
 /* Exemplo 3 : Condicional encadeada (If,ElSE IF, ELSE ) */

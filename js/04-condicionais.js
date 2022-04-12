@@ -21,7 +21,7 @@ if (numero > 0) {
 
 //Exemplo 2 : condicional Composta (If/else)
 let aluno = "João";
-let nota1 = 8;
+let nota1 = 10;
 let nota2 = 4;
 let media = (nota1+nota2)/2;
 
